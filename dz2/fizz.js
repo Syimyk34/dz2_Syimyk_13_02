@@ -4,15 +4,15 @@ for (; num < 100; num++) {
 
     if (num % 5 === 0 && num % 3 === 0) {
 
-        document.write(num, " = FizzBuzz <br />")
+        document.write(num, "  FizzBuzz <br />")
 
     } else if (num % 5 === 0) {
 
-        document.write(num, " = Buzz <br />");
+        document.write(num, "  Buzz <br />");
 
     } else if (num % 3 === 0) {
 
-        document.write(num, " = Fizz <br/ >");
+        document.write(num, "  Fizz <br/ >");
 
     } else {
 
